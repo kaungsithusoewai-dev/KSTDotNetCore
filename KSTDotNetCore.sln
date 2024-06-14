@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.34929.205
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KSTDotNetCore.ConsoleApp", "KSTDotNetCore.ConsoleApp\KSTDotNetCore.ConsoleApp.csproj", "{0CB95DD9-3294-4702-A845-8B317563A1A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CB95DD9-3294-4702-A845-8B317563A1A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CB95DD9-3294-4702-A845-8B317563A1A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CB95DD9-3294-4702-A845-8B317563A1A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CB95DD9-3294-4702-A845-8B317563A1A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57310ED6-B7C4-406E-94DB-9D0F13DC3E67}
+	EndGlobalSection
+EndGlobal
