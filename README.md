@@ -11,4 +11,4 @@ UI + Business Logic  + Data Access + Db
  Console App
  2024-06-14 Ado.Net
  2024-06-17 Dapper 
- EFCore
+ 2024-06-19 EFCore

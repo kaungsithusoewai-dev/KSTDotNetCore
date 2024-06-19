@@ -15,6 +15,7 @@ namespace KSTDotNetCore.ConsoleApp
             InitialCatalog = "KSTDotNet",
             UserID = "sa",
             Password = "sa@123",
+            TrustServerCertificate = true
         };
     }
 }
