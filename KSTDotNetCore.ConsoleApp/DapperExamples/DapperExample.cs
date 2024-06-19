@@ -1,4 +1,6 @@
 ﻿using Dapper;
+using KSTDotNetCore.ConsoleApp.Dtos;
+using KSTDotNetCore.ConsoleApp.Services;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -8,7 +10,7 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KSTDotNetCore.ConsoleApp
+namespace KSTDotNetCore.ConsoleApp.DapperExamples
 {
     internal class DapperExample
     {

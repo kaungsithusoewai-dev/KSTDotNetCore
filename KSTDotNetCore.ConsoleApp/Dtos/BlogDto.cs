@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KSTDotNetCore.ConsoleApp;
+namespace KSTDotNetCore.ConsoleApp.Dtos;
 [Table("Tbl_Blog")]
 internal class BlogDto
 {
@@ -17,6 +17,6 @@ internal class BlogDto
 
     public string BlogAuthor { get; set; }
 
-    public string BlogContent {  get; set; }
+    public string BlogContent { get; set; }
 }
 //public record BlogEntity(int BlogId, string BlogTitle, string BlogAuthor, string BlogContent);

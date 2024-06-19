@@ -1,4 +1,5 @@
-﻿using KSTDotNetCore.ConsoleApp;
+﻿using KSTDotNetCore.ConsoleApp.AdoDotNetExamples;
+using KSTDotNetCore.ConsoleApp.EFCoreExamples;
 using System.Data;
 using System.Data.SqlClient;
 

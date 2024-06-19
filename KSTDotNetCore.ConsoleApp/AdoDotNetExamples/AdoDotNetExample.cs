@@ -1,4 +1,4 @@
-﻿ using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Common;
@@ -9,7 +9,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KSTDotNetCore.ConsoleApp
+namespace KSTDotNetCore.ConsoleApp.AdoDotNetExamples
 {
     internal class AdoDotNetExample
     {
@@ -120,7 +120,8 @@ namespace KSTDotNetCore.ConsoleApp
             string message = result > 0 ? "Updating Successful" : "Updating failed";
             Console.WriteLine(message);
         }
-        public void Delete(int id) {
+        public void Delete(int id)
+        {
 
             SqlConnection connection = new SqlConnection(_sqlConnectionStringBuilder.ConnectionString);
             connection.Open();
@@ -128,7 +129,7 @@ namespace KSTDotNetCore.ConsoleApp
       WHERE BlogId = @BlogId";
             SqlCommand cmd = new SqlCommand(query, connection);
             cmd.Parameters.AddWithValue("BlogId", id);
-           
+
             int result = cmd.ExecuteNonQuery();
 
             connection.Close();

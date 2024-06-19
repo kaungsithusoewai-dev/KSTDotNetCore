@@ -1,4 +1,5 @@
 ﻿using Dapper;
+using KSTDotNetCore.ConsoleApp.Dtos;
 using Microsoft.EntityFrameworkCore.Query.Internal;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KSTDotNetCore.ConsoleApp
+namespace KSTDotNetCore.ConsoleApp.EFCoreExamples
 {
     internal class EFCoreExample
     {
