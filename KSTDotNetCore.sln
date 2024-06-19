@@ -3,10 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.34929.205
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KSTDotNetCore.ConsoleApp", "KSTDotNetCore.ConsoleApp\KSTDotNetCore.ConsoleApp.csproj", "{0CB95DD9-3294-4702-A845-8B317563A1A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSTDotNetCore.ConsoleApp", "KSTDotNetCore.ConsoleApp\KSTDotNetCore.ConsoleApp.csproj", "{0CB95DD9-3294-4702-A845-8B317563A1A1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Document", "Document", "{6C0CE3ED-6375-4B3F-BFA5-9E5F2ADD0098}"
 	ProjectSection(SolutionItems) = preProject
+		KSTDotNet.sql = KSTDotNet.sql
 		README.md = README.md
 	EndProjectSection
 EndProject
