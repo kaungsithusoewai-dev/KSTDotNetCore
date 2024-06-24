@@ -105,7 +105,7 @@ namespace KSTDotNetCore.RestApi.Controllers
 
             connection.Close();
 
-            string message = result > 0 ? "Saving Successful" : "Saving failed";
+            string message = result > 0 ? "Create Successful" : "Create failed";
             return Ok(message);
 
         }
