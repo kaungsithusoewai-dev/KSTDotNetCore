@@ -131,7 +131,7 @@ namespace KSTDotNetCore.RestApi.Controllers
             using IDbConnection db = new SqlConnection(ConnectionStrings.sqlConnectionStringBuilder.ConnectionString);
             int result = db.Execute(query, new BlogModel { BlogId = id });
 
-            string message = result > 0 ? "Deleting Successful" : "Deleteing failed";
+            string message = result > 0 ? "Deleting Successful" : "Deleting failed";
             return Ok(message);
         }
         private BlogModel FindById(int id)
@@ -139,7 +139,7 @@ namespace KSTDotNetCore.RestApi.Controllers
             string query = "select * from Tbl_Blog where BlogId = @BlogId";
             using IDbConnection db = new SqlConnection(ConnectionStrings.sqlConnectionStringBuilder.ConnectionString);
             var item = db.Query<BlogModel>(query, new BlogModel { BlogId = id }).FirstOrDefault();
-            return item;
+            return item!;
         } 
     }
 }
