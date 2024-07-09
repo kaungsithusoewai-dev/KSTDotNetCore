@@ -23,12 +23,12 @@ namespace KSTDotNetCore.RestApi.Controllers
         [HttpGet("{id}")]
         public IActionResult Edit(int id)
         {
-            var lst = _appDbContext.Blogs.FirstOrDefault(x => x.BlogId == id);
-            if (lst == null)
+            var item = _appDbContext.Blogs.FirstOrDefault(x => x.BlogId == id);
+            if (item == null)
             {
                 return NotFound("No data found");
             }
-            return Ok(lst);
+            return Ok(item);
         }
 
         [HttpPost]
