@@ -1,4 +1,7 @@
 using KSTDotNetCore.MinimalApp.Db;
+using KSTDotNetCore.MinimalApp.Features.Blog;
+using KSTDotNetCore.MinimalApp.Models;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -27,13 +30,12 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.MapGet("/", () => "Hello World");
 
-app.MapGet("api/Blog", async (AppDbContext db) =>
-{
-    var lst = await db.Blogs.AsNoTracking().ToListAsync();
-    return Results.Ok(lst);
-});
+BlogService.MapBlogs(app);
+
+app.MapBlogs();
 
 app.Run();
+
 
 //app.UseAuthorization();
 
