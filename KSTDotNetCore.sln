@@ -17,7 +17,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSTDotNetCoreShare", "KSTDo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSTDotNetCore.RestApiWithNLayer", "KSTDotNetCore.RestApiWithNLayer\KSTDotNetCore.RestApiWithNLayer.csproj", "{AACD53AD-4AE7-4D38-9802-2B3D6747B27A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KSTDotNetCore.MinimalApp", "KSTDotNetCore.MinimalApp\KSTDotNetCore.MinimalApp.csproj", "{278D1E34-CB88-4E60-B962-F2DB659D539B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KSTDotNetCore.MinimalApp", "KSTDotNetCore.MinimalApp\KSTDotNetCore.MinimalApp.csproj", "{278D1E34-CB88-4E60-B962-F2DB659D539B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KSTDotNetCore.EFCoreAuto", "KSTDotNetCore.EFCoreAuto\KSTDotNetCore.EFCoreAuto.csproj", "{DA061721-589F-461D-A923-B5C33F71614D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KSTDotNetCore.BlazorWasmAppV2", "KSTDotNetCore.BlazorWasmAppV2\KSTDotNetCore.BlazorWasmAppV2.csproj", "{D0C2081F-443A-4A5B-AC4D-09E284754AE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KSTDotNetCore.BlazorWasmAppV3", "KSTDotNetCore.BlazorWasmAppV3\KSTDotNetCore.BlazorWasmAppV3.csproj", "{C18D0562-9750-4EFB-8DFD-B7A4E5EC4368}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +51,18 @@ Global
 		{278D1E34-CB88-4E60-B962-F2DB659D539B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{278D1E34-CB88-4E60-B962-F2DB659D539B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{278D1E34-CB88-4E60-B962-F2DB659D539B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA061721-589F-461D-A923-B5C33F71614D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA061721-589F-461D-A923-B5C33F71614D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA061721-589F-461D-A923-B5C33F71614D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA061721-589F-461D-A923-B5C33F71614D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0C2081F-443A-4A5B-AC4D-09E284754AE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0C2081F-443A-4A5B-AC4D-09E284754AE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0C2081F-443A-4A5B-AC4D-09E284754AE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0C2081F-443A-4A5B-AC4D-09E284754AE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C18D0562-9750-4EFB-8DFD-B7A4E5EC4368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C18D0562-9750-4EFB-8DFD-B7A4E5EC4368}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C18D0562-9750-4EFB-8DFD-B7A4E5EC4368}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C18D0562-9750-4EFB-8DFD-B7A4E5EC4368}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
